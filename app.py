@@ -27,6 +27,7 @@ def load_data():
     return data
 
 # segundo cambio :D o tercero
+# Aporte Johan
 
 # Cargar datos
 data = load_data()
