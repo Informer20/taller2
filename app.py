@@ -26,7 +26,7 @@ def load_data():
     data = data.set_index("time")
     return data
 
-
+# segundo cambio :D o tercero
 
 # Cargar datos
 data = load_data()
