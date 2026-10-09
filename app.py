@@ -18,13 +18,15 @@ app.title = "Dashboard energia"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
-
+# Datos cargados para el tablero de energía
 # Cargar datos
 def load_data():
     data = pd.read_csv("datos_energia.csv")
     data["time"] = pd.to_datetime(data["time"])
     data = data.set_index("time")
     return data
+
+
 
 # Cargar datos
 data = load_data()
